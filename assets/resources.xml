@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/org/app">
-    <file compressed="true">images/icon.png</file>
+    <file compressed="true">images/moe.launcher.an-anime-borb-launcher.png</file>
   </gresource>
   <gresource prefix="/org/app">
     <file compressed="true">images/modern.svg</file>
