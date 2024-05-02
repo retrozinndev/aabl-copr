@@ -63,6 +63,8 @@ cargo build --release
 # copy binary
 mkdir -p %{buildroot}%{install_dir}
 cp -f target/release/%{build_output} %{buildroot}%{install_dir}
+# rename binary
+mv %{buildroot}%{installdir}/%{build_output} %{buildroot}%{installdir}/%{name}
 # copy icon
 mkdir -p %{buildroot}%{icon_dir}
 cp -f assets/images/%{app_id}.png %{buildroot}%{icon_dir}
