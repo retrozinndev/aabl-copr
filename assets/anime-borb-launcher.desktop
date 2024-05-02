@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=An Anime Borb Launcher
-Icon=icon
-Exec=AppRun
+Icon=moe.launcher.an-anime-borb-launcher
+Exec=an-anime-borb-launcher
 Type=Application
 Categories=Game
 Terminal=false
