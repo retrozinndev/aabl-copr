@@ -7,7 +7,7 @@
 %define build_output anime-borb-launcher
 
 Name: an-anime-borb-launcher
-Version: 1.0.1.rc2
+Version: 1.0.1.rc3
 Release: 1%{?dist}
 License: GPLv3
 Summary: Play the anime borb game in Linux.
@@ -64,7 +64,7 @@ cargo build --release
 mkdir -p %{buildroot}%{install_dir}
 cp -f target/release/%{build_output} %{buildroot}%{install_dir}
 # rename binary
-mv %{buildroot}%{installdir}/%{build_output} %{buildroot}%{installdir}/%{name}
+mv %{buildroot}%{install_dir}/%{build_output} %{buildroot}%{install_dir}/%{name}
 # copy icon
 mkdir -p %{buildroot}%{icon_dir}
 cp -f assets/images/%{app_id}.png %{buildroot}%{icon_dir}
