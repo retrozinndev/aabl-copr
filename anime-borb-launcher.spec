@@ -7,7 +7,7 @@
 %define build_output anime-borb-launcher
 
 Name: an-anime-borb-launcher
-Version: 1.0.1.rc3
+Version: 1.0.1.rc4
 Release: 1%{?dist}
 License: GPLv3
 Summary: Play the anime borb game in Linux.
